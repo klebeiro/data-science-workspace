@@ -1,3 +1,6 @@
+# Metadados do Conjunto de Dados: Flood Disaster  
+**Número de variáveis: 17**
+**Número de registros: 2963
 | Nome da variável                    | Tipo                       | Descrição                                              | Unidades   | Valores faltantes   |
 |:------------------------------------|:---------------------------|:-------------------------------------------------------|:-----------|:--------------------|
 | segment_id                          | Numérico/Texto (SEG-00001) | Identificador único de cada segmento                   | -          | Não                 |
