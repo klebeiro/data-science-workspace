@@ -1,0 +1,13 @@
+Variable Name,Role,Type,Demographic,Description,Units,Missing Values
+id,Identifier,Integer,-,Unique identifier for each patient,-,no
+gender,Feature,Categorical,Sex,"Gender of the patient (Male, Female or Other)",-,no
+age,Feature,Numeric,Age,Age of the patient,years,no
+hypertension,Feature,Binary,Health,"1 if the patient has hypertension, 0 otherwise",-,no
+heart_disease,Feature,Binary,Health,"1 if the patient has any heart disease, 0 otherwise",-,no
+ever_married,Feature,Categorical,Personal,Marital status of the patient (Yes or No),-,no
+work_type,Feature,Categorical,Occupation,"Type of work (children, Govt_job, Never_worked, Private, Self-employed)",-,no
+Residence_type,Feature,Categorical,Residence,Type of residence (Rural or Urban),-,no
+avg_glucose_level,Feature,Numeric,Health,Average glucose level in blood,mg/dL,no
+bmi,Feature,Numeric,Health,Body Mass Index of the patient,kg/m²,yes
+smoking_status,Feature,Categorical,Behavior,"Smoking status (formerly smoked, never smoked, smokes, or Unknown)",-,no
+stroke,Target,Binary,Health,"1 if the patient had a stroke, 0 otherwise",-,no
